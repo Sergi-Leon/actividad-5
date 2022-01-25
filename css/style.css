@@ -9,14 +9,6 @@ p{
     font-size: 1rem;
 }
 
-h1{
-    font-size: 3rem;
-}
-
-h2{
-    font-size: 2rem;
-}
-
 * {
     box-sizing: border-box;
 }
@@ -42,10 +34,18 @@ body{
     width: 25%;
     float: left;
     position: fixed;
+    height: auto;
 }
 
 .column-noti {
+    width: 25%;
+    float: right;
+    position: fixed;
+    margin-left: 75%;
+}
 
+#disp-none {
+    display: none;
 }
 
 a{
@@ -53,14 +53,22 @@ a{
     color: black;
 }
 
+#espacioMedio {
+    margin-left: 20%;
+}
+
 .column-2{
     width: 50%;
     float: left;
-    margin-left: 25%;
 }
 
 .column-3{
     width: 33.33%;
+    float: left;
+}
+
+.column-4{
+    width: 25%;
     float: left;
 }
 
@@ -85,13 +93,226 @@ a{
     background-position: center;
 }
 
+#img-4{
+    height: 50vh;
+    background-image: url("../img/galeria4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#img-5{
+    height: 50vh;
+    background-image: url("../img/galeria5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#img-6{
+    height: 50vh;
+    background-image: url("../img/galeria6.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#int-1{
+    height: 50vh;
+    background-image: url("../img/interes1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#int-2{
+    height: 50vh;
+    background-image: url("../img/interes2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#int-3{
+    height: 50vh;
+    background-image: url("../img/interes3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#int-4{
+    height: 50vh;
+    background-image: url("../img/interes4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#hotel-1{
+    height: 90%;
+    background-image: url("../img/hotel1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#hotel-2{
+    height: 90%;
+    background-image: url("../img/hotel2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#hotel-3{
+    height: 90%;
+    background-image: url("../img/hotel3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#hotel-4{
+    height: 90%;
+    background-image: url("../img/hotel4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    height: 60vh;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card2 {
+    height: 30vh;
+    width: 100%;
+}
+
+.descripcion {
+    height: 10%;
+    width: 100%;
+}
+
 .padding-s{
     padding: 3%;
 }
 
-
-
+.centrarTexto {
+    text-align: center;
+    margin: 0%;
+}
 
 @media only screen and (max-width: 700px) {
 
+    .column-nav {
+        width: 100%;
+        height: auto;
+        position: sticky;
+        top: 0;
+        text-align: center;
+        background-color: white;
+        opacity: 80%;
+    }
+
+    .column-nav ul {
+        list-style: none;
+    }
+
+    .column-noti {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        position: relative;
+    }
+    
+    #espacioMedio {
+        margin-left: 25%;
+    }
+
+    #disp-none {
+        display: block;
+    }
+
+    #gallery .column-3 {
+        width: 100%;
+    }
+    
+    #lugarInt .column-2 {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    #img-1{
+        height: 30vh;
+    }
+    
+    #img-2{
+        height: 30vh;
+    }
+
+    #img-3{
+        height: 30vh;
+    }
+
+    #img-4{
+        height: 30vh;
+    }
+
+    #img-5{
+        height: 30vh;
+    }
+
+    #img-6{
+        height: 30vh;
+    }
+
+    #int-1{
+        height: 30vh;
+        margin-bottom: 10%;
+    }
+
+    #int-2{
+        height: 30vh;
+        margin-bottom: 10%;
+    }
+
+    #int-3{
+        height: 30vh;
+        margin-bottom: 10%;
+    }
+
+    #int-4{
+        height: 30vh;
+        margin-bottom: 10%;
+    }
+
+    #hotel-1{
+        height: 30vh;
+        width: 100%;
+    }
+
+    #hotel-2{
+        height: 30vh;
+        width: 100%;
+    }
+
+    #hotel-3{
+        height: 30vh;
+        width: 100%;
+    }
+
+    #hotel-4{
+        height: 30vh;
+        width: 100%;
+    }
+
+    #hotel .column-2 {
+        width: 100%;
+    }
+
+    .card {
+        height: 50%;
+        width: 100%;
+    }
 }
